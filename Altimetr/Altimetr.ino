@@ -41,7 +41,7 @@ void setup() {
 
 void loop() {
   //Serial.println(getAltidude());
-  String dataString = String(getAltidude());
+  String dataString = String(getAltidude()) + " " +  String(millis());
 
 
   File dataFile = SD.open("datalog.txt", FILE_WRITE);
@@ -50,8 +50,6 @@ void loop() {
   if (dataFile) {
     dataFile.println(dataString);
     dataFile.close();
-    // print to the serial port too:
-    Serial.println(dataString);
   }
   // if the file isn't open, pop up an error:
   else {
@@ -76,6 +74,6 @@ float getPressure() {
 
 float getPressurFiltr(float p) {
   static float filVal = 0;
-  filVal += (p - filVal) * 0.8;
+  filVal += (p - filVal) * 0.9;
   return filVal;
 }
