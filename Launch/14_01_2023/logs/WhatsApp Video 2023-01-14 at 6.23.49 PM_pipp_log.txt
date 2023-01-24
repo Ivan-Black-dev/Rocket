@@ -1,0 +1,27 @@
+PIPP (v2.5.9) Logfile
+
+Command line arguments:
+  -gui
+  -dark
+  -flat
+  -flat_dark
+  -raw_db=0
+  -raw_ocs=0
+  -raw_hl=1
+  -osubdir=
+  -od=C:\Users\ivan\Desktop\Rocket\Launch\14_01_2023
+  -os=_ulrg
+  -png
+  -keepimgname
+  -temp_dir=C:\Users\ivan\AppData\Local\Temp\pipp_wpoouqsj.i0l
+
+Source image files:
+  C:\Users\ivan\Desktop\Rocket\Launch\14_01_2023\WhatsApp Video 2023-01-14 at 6.23.49 PM.mp4
+
+Summary:
+PIPP version: v2.5.9
+  Total input frames: 584
+  Total output frames: 584:
+  Output Frame Type: Colour
+  Output Frame Format: PNG
+  Output Directory: C:/Users/ivan/Desktop/Rocket/Launch/14_01_2023/
